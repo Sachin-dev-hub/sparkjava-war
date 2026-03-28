@@ -1,4 +1,4 @@
-import spark.servlet.SparkApplication;;
+import spark.servlet.SparkApplication;
 
 import static spark.Spark.get;
 
@@ -10,5 +10,6 @@ public class HelloWorld implements SparkApplication {
 	@Override
 	public void init() {
 		get("/hello", (req, res) -> "Hello World");
+		Hi
 	}
 }
